@@ -1,0 +1,23 @@
+{
+  "name": "marvin-form-filler",
+  "version": "1.0.0",
+  "description": "A Google Chrome extension that fills all forms in the page with preset information",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Dales",
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidd647/gitlab-speech-alert.git"
+  },
+  "keywords": [
+    "GitLab"
+  ],
+  "bugs": {
+    "url": "https://github.com/davidd647/gitlab-speech-alert/issues"
+  },
+  "homepage": "https://github.com/davidd647/gitlab-speech-alert#readme"
+}
