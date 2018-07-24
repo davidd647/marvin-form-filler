@@ -8,19 +8,20 @@ function fillTheThings(){
   inputs.forEach(input => {
     switch( input.type ) {
       case 'text':
-        input.value = 'sigh'
+        const items = [`sigh`, `why`, `what's the use`, `uughh`]
+        input.value = items[Math.floor(Math.random()*items.length)]
         break
       case 'checkbox':
         input.checked = true
         break
       case 'email':
-        input.value = 'marvin@magrathea.com'
+        input.value = `marvin@magrathea.com`
         break
       case 'tel':
-        input.value = '647 424 2424'
+        input.value = `647 424 2424`
         break
       case 'number':
-        input.value = '42'
+        input.value = `42`
         break
     }
   })
